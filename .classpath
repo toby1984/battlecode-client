@@ -12,10 +12,6 @@
 	<classpathentry kind="lib" path="lib/jogl-all.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/battlecode-server"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/battlecode-player"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk6">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_45"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
