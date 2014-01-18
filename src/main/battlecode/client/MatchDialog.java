@@ -398,6 +398,9 @@ public class MatchDialog extends JDialog implements ActionListener {
 		// Dequeue a map choice.
 		else if ("remove".equals(cmd)) {
 			int index = lstMatches.getSelectedIndex();
+			if ( index < 0 && lstMatchesModel.size() > 0 ) {
+				index=0;
+			}
 			if (index >= 0) {
 				lstMatchesModel.remove(index);
 				if (index - 1 >= 0)
